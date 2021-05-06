@@ -51,11 +51,9 @@ public class DBContract {
 			System.out.println("=".repeat(30));
 		}
 	} // end static
-
 	
-
 	public static Connection getDBConnection() {
-		// TODO Auto-generated method stub
 		return dbConn;
 	}
+	
 }

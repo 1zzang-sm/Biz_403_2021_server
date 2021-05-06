@@ -27,10 +27,9 @@ public class BuyerServiceImplV1 implements BuyerService {
 
 	@Override
 	public BuyerDTO findById(String bu_code) {
-		// TODO Auto-generated method stub
-		
-		String sql = " SELECT * FROM tbl_buyer";
-		sql += " WHERE bu_code = ?";
+		// TODO 회원코드로 조회하기
+		String sql = " SELECT * FROM tbl_buyer ";
+		sql += " WHERE bu_code = ? ";
 		
 		PreparedStatement pStr = null;
 		try {
@@ -45,10 +44,13 @@ public class BuyerServiceImplV1 implements BuyerService {
 			}
 			return buyerDTO;
 		} catch (SQLException e) {
-			
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		
+		
+		
 		return null;
 	}
 
