@@ -9,8 +9,8 @@ public class DBContract {
 	private static Connection dbConn;
 	static {
 
-		String jdbcDriver = "oracle.jdbc.OracleDriver.class";
-		String url = "jdbc:oralce:thin:@localhost:1521:xe";
+		String jdbcDriver = "oracle.jdbc.OracleDriver";
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String username = "myfood";
 		String password = "myfood";
 
