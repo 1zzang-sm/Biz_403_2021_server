@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+div {
+	width: 80%;
+	margin: 10px auto;
+	background-color: rgba(0, 255, 0, .5);
+}
+
+input {
+	border: 1px solid green;
+	padding: 8px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid green;
+	width: 80%;
+	margin: 10px auto;
+}
+
+td, th {
+	border: 1px solid green;
+}
+h1 {
+	background-color: rgba(0, 255, 0, 0.7); /* 배경 색*/
+	color: white; /* 글자색 */
+	padding: 1.2rem;
+	text-align: center; /* 글자 위치 */
+}
+
+a {
+	text-decoration: none;
+}
+/*
+	CSS 3를 사용한 interactive 스타일 지정 
+	동적(Dyanamic) 스타일 지정 
+	*/
+
+/* CSS 3 */
+/* a tag에 마우스가 떠 있으면 */
+a:hover {
+	text-decoration: underline;
+	background-color: rgba(0, 0, 255, 0.3);
+}
