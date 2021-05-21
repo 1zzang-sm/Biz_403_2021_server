@@ -16,7 +16,7 @@ public class GuestBookVO {
 	private Long gb_seq;
 	private String gb_date;
 	private String gb_time;
-	private String gb_wirter;
+	private String gb_writer;
 	private String gb_email;
 	private String gb_password;
 	private String gb_content;
