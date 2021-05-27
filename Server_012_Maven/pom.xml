@@ -2,11 +2,28 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
 	<groupId>com.callor</groupId>
+	<!-- 다른 프로젝트에서는 상속받기 위해선 maven이라고 하면안된다 artifactId를 -->
 	<artifactId>maven</artifactId>
+	
 	<version>0.1</version>
+	
 	<packaging>pom</packaging>
 	<name>zzang</name>
+	<!-- 
+		pom.xml에서 공통으로 사용할 변수 <propertieds>
+		대체적으로 자바버전을 이렇게 구분한다.
+		Java(1.1)
+		Java2(1.2 ~ 1.4)
+		Java5(1.5)
+		Java7(1.7 ~ 1.8)
+		Java8(1.8 ~ 9, 10, 11, 15, 16) 
+		1.8 stream 추가
+		10 새로운 변수 선언 키워드(var)
+		
+		plugin에서 confi.. 에서 사용할 변수
+	 -->
 	<properties>
 		<java-version>15</java-version>
 	</properties>
